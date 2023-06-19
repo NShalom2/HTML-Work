@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../fonts/gotham.otf') format('opentype');
+}
+/*This is a font I downloaded, to make the words looks more like the poster*/
+body{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+/*  This means that the background set will not repeat any other times  */
+}
+.flex > div > header{
+    font-family: 'Gotham Bold', sans-serif;
+}
+.flex > div > header > h1{
+    color: white;
+    text-align: center;
+    list-style: none;
+    font-size: 33px;
+    font-weight: 650;
+}
+.flex > div > header > div > menu{
+    display: flex;
+    justify-content: center; /* this line helps to center align items */
+    list-style: none;
+}
+
+.flex > div > header > div > menu > li{
+    color: firebrick;
+    text-align: center;
+    padding: 0px 38px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+.flex > div > header > div + div > menu > li{
+    color: white;
+    text-align: center;
+    padding: 0px 14px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 650;
+}
+.flex > div > header > div + div > menu > li.special_element{
+    font-size: 5px;
+}
+.flex > div > p {
+    font-family: 'Gotham Bold', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 150px;
+    font-weight: 200;
+}
+.flex > div + div > p{
+    margin-top: 200px; /* margin top allows us to put the elements at whichever section we choose, by adjusting the vertical margin */
+}
+.flex > div + div + div > p{
+    margin-top: 1185px;
+    font-family: 'Roboto Thin', sans-serif;
+    color: darkcyan;
+    font-size: 15px;
+}
+.flex > div + div + div > h1 {
+    font-family: 'Gotham Bold', sans-serif;
+    color: firebrick;
+    font-size: 150px;
+    margin-top: -180px;
+    text-align: center;
+}
+.flex > div + div + div > h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: azure;
+    margin-top: -130px;
+    text-align: center;
+    font-weight: bold;
+}
+.flex > div + div + div + div > h6{
+    color: darkcyan;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 19px;
+    margin-top: -20px;
+}
+.flex > div + div + div + div > h6 + h6 { /* the plus sign means that we are targeting the element after the current one. This only works if the elements have the same tags */
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: darkcyan;
+    margin-top: -43px;
+}
+.flex > div + div + div + div > h6 + h6 + h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: darkcyan;
+    margin-top: -35px;
+}
+.flex > div + div + div + div > h6 + h6 + h6 + h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: darkcyan;
+    font-size: 15px;
+}
+.flex > div + div + div + div > h6 + h6 + h6 + h6 + h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: darkcyan;
+    font-size: 20px;
+}
+.flex > div + div + div + div > p{
+    color: white;
+    font-size: 30px;
+    margin-top: -5px;
+}
